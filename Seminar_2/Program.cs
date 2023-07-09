@@ -58,16 +58,26 @@
 // 46 -> нет
 // 161 -> да
 
-Console.Write("Получаем число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Получаем число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-if (number / 7 ==0 && number % 23 ==0) // Число делиться без остатка на 7 и 23
-{
-    Console.WriteLine($"Число {number} делиться без остатка на 7 и 23");
+// if (number / 7 ==0 && number % 23 ==0) // Число делиться без остатка на 7 и 23
+// {
+//     Console.WriteLine($"Число {number} делиться без остатка на 7 и 23");
 
-}
-else
-{
-    Console.WriteLine($"Число {number} делиться на 7 с остатком: {number % 7}");
-    Console.WriteLine($"Число {number} делиться на 23 с остатком: {number % 23}");
-}
+// }
+// else
+// {
+//     Console.WriteLine($"Число {number} делиться на 7 с остатком: {number % 7}");
+//     Console.WriteLine($"Число {number} делиться на 23 с остатком: {number % 23}");
+// }
+//  456 % 100 ..... = 56 И еще несколько пассов
+//1,2,3,4,5,- не выходные дни 6,7 - выходные, остальные неверно
+// string stringNumber = "456";
+// Console.WriteLine(stringNumber[1]);
+
+
+
+
+
+
